@@ -34,7 +34,9 @@ jobs:
         # запуск проверки проекта по flake8
         python -m flake8
 
-name: Django-app workflow
+# name: Django-app workflow
+
+name: Django-app /.github/workflows/main.yml
 
 on: [push]
 
